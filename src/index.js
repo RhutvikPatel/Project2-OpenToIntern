@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://unmesh_dhore:Kundan%4012345@cluster0.szcbzir.mon
 
 app.use("/", route)
 
-app.listen(process.env.PORT|| 3000, function(){
-    console.log("Express App running on Port " + (process.env.PORT|| 3000))
+app.listen(process.env.PORT|| 3001, function(){
+    console.log("Express App running on Port " + (process.env.PORT|| 3001))
 })
 
